@@ -2,12 +2,14 @@ body {
     background-color: hsl(218, 28%, 13%);
     color: hsl(0, 0%, 100%);
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url(file:///C:/Users/abhis/OneDrive/Desktop/fylo-dark-theme-landing-page-master/images/bg-curvy-desktop.svg);
 }
 .main {
     background-color: hsl(218, 28%, 13%);
     color: hsl(0, 0%, 100%);
 }
 footer {
+    height: 360px;
     background-color: hsl(216, 53%, 9%);
 }
 
@@ -32,6 +34,24 @@ footer {
 
 .container {
     display: flex;
+}
+
+.boxes {
+    flex: 33.33%;
+    height: 130px;
+    margin: 30px 30px;
+    text-align: left;
+    padding: 20px;
+    box-shadow: 5px 8px 5px rgb(39, 38, 38);;
+    background-color: hsl(219, 30%, 18%);
+    border-radius: 4px;
+}
+
+.table {
+    flex: 50%;
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 .item1 {
